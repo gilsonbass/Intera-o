@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interação</title>
+
+<style>
+div#area{
+background-color: rgb(6, 21, 235);
+color: rgb(0, 241, 221);
+width: 500px;
+height: 500px;
+line-height: 600px;
+text-align: center;
+font-size: large;
+}
+</style>
+
+        </head>
+        <body>
+<h1><p>Interação com mouse</p></h1>
+
+  
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" 
+    onmouseout="saiu()" ondblclick="x()" onmousedown="y()"  ></div>
+<script>
+var a = window.document.getElementById('area')
+//a.style.background = 'red' trocar de cor:
+function clicar (){
+    a.innerText = '>>> Ta clicando Porque <<<<'
+    a.style.background = 'red'
+    a.style.backgroundPosition = center
+}
+function entrar(){
+    a.innerText = '>>>>PASSANDO O MOUSE ENCIMA DA AREA<<<<<'
+    a.style.background = 'yellow'
+    a.color = 'red'
+}
+function saiu (){
+    a.innerText = 'SAIU DA AREA'
+    a.style.background = 'blue'
+}
+function x(){
+    a.innerText = 'DOIS CLICK MEU CHEF'
+    a.ne
+}
+function y(){
+    a.innerText = 'SEGURANDO O DEDO DO MOUSE'
+}
+</script>
+
+</body>
+</html>
