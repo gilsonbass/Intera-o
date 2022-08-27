@@ -1,2 +1,2 @@
-# Intera-o
+# Interação com mause
 Usando interação com 'mouse' usando JavaScrip
